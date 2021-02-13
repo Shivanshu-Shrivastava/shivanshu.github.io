@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.linkk:hover{
+    color:red;
+}
+/* .heightimage{
+    width: 100vw;
+    height: 30%;
+} */
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+    color: #ce0909;
+    text-decoration: underline;
+}
+.mx-6 {
+    margin-left: 8rem!important;
+    margin-right: 8rem!important;
+}
+.float-right {
+    float: right!important;
+    margin-left: 79%;
+}
+.bod{
+    background: url("about.jfif") rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.bgf{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.abimg{
+    height: 50%;
+   
+}
+.marg{
+    margin-bottom: 11rem;
+}
+.cont{
+    background: url("cont.jpg") rgba(0, 0, 0, 0.4);
+    background-size: cover;
+}
+.sub{
+    background-color: royalblue;
+    color: rgb(197, 194, 216);
+}
+.ani{
+    animation-name: translate;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes translate{
+    0% {background:red;}
+    30% {background:blue;}
+    50% {background:green;}
+    70% {background:grey;}
+    100% {background:black;}
+}
